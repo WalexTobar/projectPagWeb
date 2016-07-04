@@ -50,9 +50,10 @@ Last change: 20/10/2015
 
 	.font-reg{font-family: 'Raleway', sans-serif;font-weight:400;}
 	.font-light{font-family: 'Raleway', sans-serif;font-weight:300;}
+     /*cambiar los colores del primary bottom con su hover+light*/
 
-	.primary-button{font-size:13px;line-height:16px;color:#ffffff;display:inline-block;padding:10px 20px 9px;border:none;background-color:#f3585b;letter-spacing:1px;text-transform:uppercase;text-decoration:none;cursor:pointer;}
-	.primary-button:hover{background-color:#f5777a;}
+	.primary-button{font-size:13px;line-height:16px;color:#ffffff;display:inline-block;padding:10px 20px 9px;border:none;background-color:#585ff3;letter-spacing:1px;text-transform:uppercase;text-decoration:none;cursor:pointer;}
+	.primary-button:hover{background-color:#7b81fb;}
 
 
 	
@@ -71,7 +72,8 @@ Last change: 20/10/2015
 	.menu li {float:left;height:100%;position:relative;white-space:nowrap;}
 	.menu .menu-item > a{font-size:13px;color:#666666;float:left;text-align:center;letter-spacing:1px;margin:0 15px;padding:20px 0;text-decoration:none;text-transform:uppercase;-webkit-transition:color ease-in-out 0.35s;transition:color ease-in-out 0.35s;}
 	.menu li:last-child a{margin-right:0px;}
-	.menu > li > a:hover,.submenu-active,#header-nav .menu-item > a.active{color:#f3585b!important;}
+	/*cambiar de color al color el mouse sobre los links del nav menu principales*/
+	.menu > li > a:hover,.submenu-active,#header-nav .menu-item > a.active{color:#585ff3!important;}
 	.menu  .sub-drop-icon{margin-left:5px;}
 	
 	
@@ -81,7 +83,8 @@ Last change: 20/10/2015
 	.menu .sub-menu{background-color:#ffffff;position:absolute;z-index:1000;top:53px;left:17px;width:200px;display:none;box-shadow: 0px 0px 10px -4px rgba(117,117,117,1);padding:10px 0;}
 	.menu .sub-menu li{width:100% !important;height: auto;padding:8px 20px;}
 	.menu .sub-menu li a{font-size:12px;color:#666666!important;padding:0;display:block;letter-spacing:1px;margin:0;display:block;width:100%;text-align:left;text-transform:uppercase;text-decoration:none;position:relative;}
-	.menu .sub-menu li a:hover{color:#f3585b!important;}
+	/*cambiar de colores a los menus desplegables*/
+	.menu .sub-menu li a:hover{color:#585ff3!important;}
 	.submenu-active,.current-page-ancestor > a{background-position:left bottom!important;}
 	
 	.sub-menu .sub-drop-icon{position:absolute;top:4px;right:0;}
@@ -114,7 +117,8 @@ Last change: 20/10/2015
 	#footer-social-icons{display:inline-block;margin-bottom:20px;}
 	#footer-social-icons .social-item:first-child{margin-left:0;}
 	#footer-bottom p,#footer-bottom a{font-size:13px;color:#ffffff;line-height:15px;text-align:center;text-decoration:none;}
-	#scroll-top{width:40px;height:40px;background-color:#f3585b;opacity:0.9;position:fixed;bottom:30px;right:30px;text-align:center;display:none;cursor:pointer;border-radius:1px;}
+	/*cambiar de color al icono de scroll*/
+	#scroll-top{width:40px;height:40px;background-color:#585ff3;opacity:0.9;position:fixed;bottom:30px;right:30px;text-align:center;display:none;cursor:pointer;border-radius:1px;}
 	#scroll-top span{font-size:20px;color:#ffffff;line-height:10px;margin-top:14px;}
 	
 	
@@ -216,7 +220,8 @@ Last change: 20/10/2015
 	.section-title{margin-bottom:50px;text-align:center;}
 	.section-title h2{font-size:24px;color:#666666;line-height:29px;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;font-weight:300;}
 	.section-title p{font-size:14px;color:#666666;line-height:19px;}
-	.section-title:after{width:50px;height:1px;display:block;background-color:#f3585b;content:"";margin:15px auto 0;}
+	/*al colorcar en una seccion como titulo agrega un barra de color*/
+	.section-title:after{width:50px;height:1px;display:block;background-color:#585ff3;content:"";margin:15px auto 0;}
 
 
 	/* -- 5.1) home-section -- */
@@ -236,7 +241,8 @@ Last change: 20/10/2015
 	
 	#banner-slide-down{width:18px;height:15px;position:absolute;left:50%;bottom:20px;z-index:101;transform:translateX(-50%);-webkit-transform:translateX(-50%);}
 	#banner-slide-down p{font-size:30px;color:#f5f5f5;line-height:15px;-webkit-transition:color ease-in-out .15s;transition:color ease-in-out .15s;cursor:pointer;}
-	#banner-slide-down p:hover{color:#fe5741;}
+	/*cambiar de color el hover la flecha asi abajo*/
+	#banner-slide-down p:hover{color:#585ff3;}
 	
 	
 	/* -- 5.2) about-section  -- */
@@ -250,7 +256,8 @@ Last change: 20/10/2015
 	.owl-controls{width:100%;height:20px;text-align:center;margin-top:40px;}
 	.owl-dots{display: inline-block;margin-left:-10px;}
 	.owl-dot{width:10px;height:10px;background-color:#bebebe;float:left;margin-left:10px;border-radius:50%;}
-	.owl-dot.active{background-color:#f3585b;}
+	/*cambiar el fondo a los circulos de navegacion*/
+	.owl-dot.active{background-color:#585ff3;}
 	
 	.team-section{display:none;}
 	.team-item{margin-top:40px;}
@@ -268,8 +275,10 @@ Last change: 20/10/2015
 	.services-section{width:100%;}
 	
 	.services-section .section-title{margin-bottom:20px;}
-	.service-item{color:#666666;text-align:center;padding:30px;margin-top:30px;background:linear-gradient(to bottom,rgba(255,255,255,1) 50%,#f3585b 50%);background-size:100% 201%;background-position:top;-moz-transition: all, 0.3s, ease-in-out;-webkit-transition: all, 0.3s, ease-in-out;transition: all, 0.3s, ease-in-out;}
-	.service-item i{font-size:40px;color:#f3585b;margin-bottom:20px;}
+	/*cambiar de color la transicion asi arriba*/
+	.service-item{color:#666666;text-align:center;padding:30px;margin-top:30px;background:linear-gradient(to bottom,rgba(255,255,255,1) 50%,#585ff3 50%);background-size:100% 201%;background-position:top;-moz-transition: all, 0.3s, ease-in-out;-webkit-transition: all, 0.3s, ease-in-out;transition: all, 0.3s, ease-in-out;}
+	/*cambiar de color a los iconos */
+	.service-item i{font-size:40px;color:#585ff3;margin-bottom:20px;}
 	.service-item h3{font-size:15px;line-height:19px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:15px;}
 	.service-item p{font-size:13px;line-height:17px;}
 	.service-item:hover{color:#ffffff;background-position:bottom;}
@@ -283,7 +292,8 @@ Last change: 20/10/2015
 	
 	#portfolio-item-filter{text-align:center;margin-bottom:20px;}
 	#portfolio-item-filter a{font-size:13px;color:#666666;letter-spacing:2px;line-height:18px;text-transform: uppercase;text-decoration:none;padding:0 10px;display:inline-block;margin-bottom:10px;}
-	#portfolio-item-filter a.active,#portfolio-item-filter a:hover{color:#f3585b;}
+	/*cambiar de color al menu del portafolio*/
+	#portfolio-item-filter a.active,#portfolio-item-filter a:hover{color:#585ff3;}
 	
 	.portfolio-section #portfolio-items li{padding:0;}
 	
@@ -297,7 +307,8 @@ Last change: 20/10/2015
 	
 	.portfolio-item:hover .portfolio-hover{opacity:1;}
 	
-	.portfolio-expand{width:150px;height:100px;background-color:#f3585b;position:absolute;top:-84px;right:-112px;z-index:10;transform:rotate(45deg);-moz-transition: all, 0.6s, ease-in-out;-webkit-transition: all, 0.6s, ease-in-out;transition: all, 0.6s, ease-in-out;}
+	/*cuando se expande en toda la imagen  se despliega un icono se cambia el color aqui*/
+	.portfolio-expand{width:150px;height:100px;background-color:#585ff3;position:absolute;top:-84px;right:-112px;z-index:10;transform:rotate(45deg);-moz-transition: all, 0.6s, ease-in-out;-webkit-transition: all, 0.6s, ease-in-out;transition: all, 0.6s, ease-in-out;}
 	.portfolio-expand img{width:25px;height:25px;margin-top:60px;margin-left:65px;transform:rotate(-45deg);}
 
 	.portfolio-item:hover .portfolio-expand{top:-36px;right:-62px;}
@@ -306,11 +317,13 @@ Last change: 20/10/2015
 	/* -- 5.5) pricing-section  -- */
 	
 	.pricing-section{width:100%;}
-	
-	.pricing-item{padding:60px 30px;text-align:center;background:linear-gradient(to bottom,rgba(255,255,255,1) 50%,#f3585b 50%);background-size:100% 202%;background-position:top;-moz-transition: all, 0.5s, ease-in-out;-webkit-transition: all, 0.5s, ease-in-out;transition: all, 0.5s, ease-in-out;}
-	.pricing-item i{font-size:40px;color:#f3585b;margin-bottom:40px;}
+	/*cambiar de color las cajas para  fijar precios*/
+	.pricing-item{padding:60px 30px;text-align:center;background:linear-gradient(to bottom,rgba(255,255,255,1) 50%,#585ff3 50%);background-size:100% 202%;background-position:top;-moz-transition: all, 0.5s, ease-in-out;-webkit-transition: all, 0.5s, ease-in-out;transition: all, 0.5s, ease-in-out;}
+	/*cambiar los colores de los iconos dentro de la cajas*/
+	.pricing-item i{font-size:40px;color:#585ff3;margin-bottom:40px;}
 	.pricing-item h3{font-size:18px;line-height:21px;letter-spacing:1.5px;text-transform:uppercase;font-weight:400;text-align:center;}
-	.purchase-cost{font-size:13px;color:#f3585b;line-height:18px;letter-spacing:1px;text-transform:uppercase;margin-top:7px;}
+	/*los tamaños, colores(etc) de los textos en las cajas */
+	.purchase-cost{font-size:13px;color:#585ff3;line-height:18px;letter-spacing:1px;text-transform:uppercase;margin-top:7px;}
 	.purchase-text{font-size:13px;color:#666666;line-height:18px;margin-top:20px;}
 	.pricing-item  ul{text-align:left;list-style:none;margin-top:20px;}
 	.pricing-item  li{font-size:13px;color:#666666;line-height:18px;border-bottom:1px solid #f5f5f5;padding:7px 0;}
@@ -318,7 +331,8 @@ Last change: 20/10/2015
 
 	.pricing-item:hover{color:#ffffff;background-position:bottom;}
 	.pricing-item:hover .fa{color:#ffffff!important;-moz-transition: color, 0.8s, ease-in-out;-webkit-transition: color, 0.8s, ease-in-out;transition: color, 0.8s, ease-in-out;}
-	.pricing-item:hover .primary-button{background-color:#ffffff;color:#f3585b;}
+	/*cambiar el color del texto que esta dentro del boton al hacer hover*/
+	.pricing-item:hover .primary-button{background-color:#ffffff;color:#585ff3;}
 	.pricing-item:hover .purchase-cost,.pricing-item:hover .purchase-text,.pricing-item:hover .pricing-info-list li{color:white!important;-moz-transition: color, 0.6s, ease-in-out;-webkit-transition: color, 0.6s, ease-in-out;transition: color, 0.6s, ease-in-out;}
 	
 	
@@ -332,7 +346,8 @@ Last change: 20/10/2015
 	.news-item-content h3{font-size:17px;line-height:21px;letter-spacing: 1.5px;text-transform:uppercase;font-weight:400;margin-bottom:6px;}
 	.news-item-date{font-size:14px!important;color:#A2A2A2;}
 	.news-item-content p{font-size:13px;line-height:19px;margin-bottom:15px;}
-	.news-continue{color:#f3585b!important;letter-spacing:1px;text-transform:uppercase;margin-top:15px;margin-bottom:0!important;}
+	/*cambiar de color los continues  o las links para leer mas del contenido que se muestra */
+	.news-continue{color:#585ff3!important;letter-spacing:1px;text-transform:uppercase;margin-top:15px;margin-bottom:0!important;}
 	
 	#view-all-posts{text-align:center;}
 	.news-section .primary-button{margin-top:40px;}
@@ -421,10 +436,12 @@ Last change: 20/10/2015
 	.previous-slide-btn{left:20px;}
 	.next-slide-btn{right:20px;}
 	#portfolio-slideshow-outer:hover .previous-slide-btn,#portfolio-slideshow-outer:hover .next-slide-btn{opacity:1;}
-	.previous-slide-btn:hover,.next-slide-btn:hover{color:#fe5741;cursor:pointer;}
+	/*cambiar de color al colocar sobre el icono de flecha a la derecha y derecha*/
+	.previous-slide-btn:hover,.next-slide-btn:hover{color:#585ff3;cursor:pointer;}
 	#portfolio-slideshow .owl-controls{position:absolute;bottom:20px;}
 	#portfolio-slideshow .owl-dot{background-color:#ffffff;}
-	#portfolio-slideshow .owl-dot.active{background-color:#f3585b;}
+	/*cuando se utiliza la clase portafolios los puntos cambian de color es necesario modificar aqui*/
+	#portfolio-slideshow .owl-dot.active{background-color:#585ff3;}
 	
 	.portfolio-details{margin-top:60px;}
 	.portfolio-details h2:first-child{font-size:19px;color:#666666;line-height:24px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:40px;}
